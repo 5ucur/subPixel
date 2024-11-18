@@ -2,6 +2,8 @@
 Write text into subpixels and render it back in upscaled previews.        
 Inspired by [this awesome video](https://www.youtube.com/watch?v=SlS3FOmKUbE), "**Smaller Than Pixel Art: Sub-Pixel Art!**".
 
+Currently only supports a small character set; see the .json file and the charset directory.
+
 ## Installation
 Make sure your Python environment has [Pillow](https://python-pillow.org) and [numpy](https://numpy.org/).
 
