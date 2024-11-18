@@ -19,3 +19,9 @@ Or, use the subPixel Renderer:
 - Height is the multiplier of pixel height, default is 3.     
 - Scale is the overall render size multiplier, default is 1.     
 - Including height is needed to use scale, currently.
+
+## To-Do
+
+- Negative padding (removing the 1 pixel strip if the length is 3x+1)
+- Add more characters
+- Display rendered image immediately?
