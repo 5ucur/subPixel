@@ -14,14 +14,15 @@ Make sure your Python environment has [Pillow](https://python-pillow.org) and [n
 - View your text by looking at the individual subpixels, with a camera or on an older screen.         
 Or, use the subPixel Renderer:
 
-`python render.py <file> [height] [scale]`     
+`python render.py <file> <height> <scale>`     
 - File is the image you want to render the preview of.     
 - Height is the multiplier of pixel height, default is 3.     
 - Scale is the overall render size multiplier, default is 1.     
-- Including height is needed to use scale, currently.
+- Including height is needed to use scale, currently, and due to a known bug, both are currently required arguments.
 
 ## To-Do
 
+- Fix bug with renderer requiring scale
 - Negative padding (removing the 1 pixel strip if the length is 3x+1)
 - Add more characters
 - Display rendered image immediately?
