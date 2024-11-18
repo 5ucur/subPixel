@@ -1,5 +1,6 @@
 # subPixel
-Write text into subpixels and render it back in upscaled previews
+Write text into subpixels and render it back in upscaled previews.        
+Inspired by [this awesome video](https://www.youtube.com/watch?v=SlS3FOmKUbE), "**Smaller Than Pixel Art: Sub-Pixel Art!**".
 
 ## Installation
 Make sure your Python environment has [Pillow](https://python-pillow.org) and [numpy](https://numpy.org/).
