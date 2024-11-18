@@ -9,6 +9,8 @@ Make sure your Python environment has [Pillow](https://python-pillow.org) and [n
 
 `python write.py <text>`     
 - Text is the text you want to write to subpixels, also used as the output file name.
+- View your text by looking at the individual subpixels, with a camera or on an older screen.         
+Or, use the subPixel Renderer:
 
 `python render.py <file> [height] [scale]`     
 - File is the image you want to render the preview of.     
