@@ -42,7 +42,7 @@ try:
     Scale is the overall render size multiplier, default is 1
       Including height is needed to use scale.""")
     else:
-        name, ext = argv[1].split(".")
+        name, ext = argv[1].rsplit(".")
         h = int(argv[2])
         s = int(argv[3])
         if argc == 2:
